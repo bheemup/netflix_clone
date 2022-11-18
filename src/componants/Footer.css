@@ -1,0 +1,22 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.footer h2{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.subContainer{
+    justify-content: flex-start;
+}
+.subContainer a{
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+}

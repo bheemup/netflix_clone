@@ -1,0 +1,33 @@
+.nav{
+   
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 5px;
+    padding-top: 10px;
+    z-index: 1;
+
+    /* //animation */
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.black{
+    background-color: rgb(46, 44, 44);
+}
+.nav img{
+    height: 40px;
+}
+.nav img:nth-child(1){
+
+padding-left: 5px;
+}
+.nav img:nth-child(2){
+    padding-right: 20px;
+}
+@media only screen and (max-width: 800px) {
+    .nav img{
+        height: 25px;
+    }
+   }
